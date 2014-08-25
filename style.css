@@ -1,0 +1,21 @@
+
+/**
+ * Kenshoo logo.
+ */
+
+.logo[data-logo="Kenshoo"] {
+  width: 2.6424619823795554em;
+}
+
+.logo[data-logo="Kenshoo"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Kenshoo"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Kenshoo"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
